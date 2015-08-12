@@ -22,6 +22,7 @@ with sensitive details changed to protect the innocent.
     security_group_ids="sg-7be8020d,sg-65e80204"
     min_size = "3"
     max_size = "10"
+    desired_capacity ="4"
     iam_instance_profile = "AmazonECSContainerInstanceRole"
     registry_url = "https://index.docker.io/v1/"
     registry_email = "your_email@"

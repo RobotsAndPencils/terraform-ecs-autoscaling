@@ -45,6 +45,11 @@ variable "max_size" {
     description = "Maximum number of instances to run in the group"
 }
 
+variable "desired_capacity" {
+    default = "1"
+    description = "Desired number of instances to run in the group"
+}
+
 variable "health_check_grace_period" {
     default = "300"
     description = "Time after instance comes into service before checking health"
