@@ -18,7 +18,7 @@ variable "region" {
 }
 
 variable "availability_zones" {
-    description = "Comma separated list of EC2 availability zones to launch instances, must be withing region"
+    description = "Comma separated list of EC2 availability zones to launch instances, must be within region"
 }
 
 variable "subnet_ids" {
