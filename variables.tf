@@ -58,11 +58,6 @@ variable "iam_instance_profile" {
     description = "The IAM Instance Profile (e.g. right side of Name=AmazonECSContainerInstanceRole)"
 }
 
-variable "cluster" {
-    default = "default"
-    description = "The name of the ECS cluster."
-}
-
 variable "registry_url" {
     default = "https://index.docker.io/v1/"
     description = "Docker private registry URL, defaults to Docker index"
