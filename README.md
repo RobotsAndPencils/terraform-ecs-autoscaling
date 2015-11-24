@@ -12,6 +12,8 @@ The default AMI is the [Amazon ECS-Optimized Amazon Linux AMI](https://aws.amazo
 Look in the `variables.tf` file for configuration options. Here's a sample config
 with sensitive details changed to protect the innocent.
 
+```json
+module "ecs-autoscaling" {
     source = "git@github.com:RobotsAndPencils/terraform-ecs-autoscaling.git"
     cluster_name = "terraform_testing"
     key_name = "staging"
@@ -28,7 +30,8 @@ with sensitive details changed to protect the innocent.
     registry_email = "your_email@"
     registry_auth = "your_registry_auth_token"
     environment_name = "staging"
-
+}
+```
 
 ### Contact
 
